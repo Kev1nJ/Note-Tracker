@@ -3,7 +3,7 @@ const path = require("path");
 const fs = require("fs");
 const util = require("util");
 
-// app.use(express.static(".Develop/public"));
+app.use(express.static(".Develop/public"));
 
-// const app = express();
-// const port = process.env.PORT || ;
+const app = express();
+const port = process.env.PORT || 3001;
